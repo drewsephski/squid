@@ -1,0 +1,25 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle for logo -->
+  <circle cx="64" cy="64" r="64" fill="#050505"/>
+  <!-- Squid mantle (main body) -->
+  <ellipse cx="64" cy="70" rx="32" ry="24" fill="#00ffcc"/>
+  <!-- Head -->
+  <ellipse cx="64" cy="58" rx="20" ry="16" fill="#00ffcc"/>
+  <!-- Eyes -->
+  <circle cx="54" cy="54" r="3.2" fill="#050505"/>
+  <circle cx="74" cy="54" r="3.2" fill="#050505"/>
+  <!-- Large fins -->
+  <path d="M28 78Q20 68 28 58Q36 68 28 78" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M100 78Q108 68 100 58Q92 68 100 78" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <!-- Arms/Tentacles (8 arms, more connected and realistic) -->
+  <path d="M42 74Q38 80 42 86Q46 92 42 98Q38 104 42 110" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M48 74Q44 78 48 84Q52 90 48 96Q44 102 48 108Q52 114 48 120" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M54 74Q50 80 54 86Q58 92 54 98Q50 104 54 110Q58 116 54 122" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M60 74Q56 78 60 84Q64 90 60 96Q56 102 60 108Q64 114 60 120Q56 126 60 128" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M68 74Q72 78 68 84Q64 90 68 96Q72 102 68 108Q64 114 68 120Q72 126 68 128" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M74 74Q78 80 74 86Q70 92 74 98Q78 104 74 110Q70 116 74 122" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M80 74Q84 78 80 84Q76 90 80 96Q84 102 80 108Q76 114 80 120" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <path d="M86 74Q90 80 86 86Q82 92 86 98Q90 104 86 110" stroke="#00ffcc" stroke-width="3.2" stroke-linecap="round" fill="none"/>
+  <!-- Siphon/Funnel -->
+  <path d="M64 66Q62 72 64 78" stroke="#00ffcc" stroke-width="2.4" stroke-linecap="round" fill="none"/>
+</svg>
