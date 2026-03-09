@@ -1,32 +1,31 @@
-# 🦑 Squid
+# Squid Framework
 
-**Meet Squid** - Your intelligent AI assistant that seamlessly integrates with 1000+ tools via Composio. Built with Next.js, this dashboard lets you chat with Squid and watch it work its magic.
+The Squid Framework is a powerful tool for building scalable and maintainable applications. It provides a comprehensive set of features and utilities that streamline the development process.
 
-## 🚀 Quick Start
+## 🐠 Overview
+Squid Framework is designed to help developers build robust applications with ease. It combines modern architecture patterns with developer-friendly tools to accelerate development.
 
-```bash
-git clone https://github.com/drewsephski/squid.git
-cd squid
-bun install
-bun dev
-```
+## 🔥 Key Features
+- **Modular Architecture**: Built-in support for creating modular applications
+- **Built-in Security**: Security features that protect your application out of the box
+- **Performance Optimized**: Designed for high performance and scalability
+- **Developer Friendly**: Intuitive API with comprehensive documentation
+- **Extensible**: Easily extendable with plugins and custom modules
 
-Open [http://localhost:3000](http://localhost:3000) and start chatting!
+## 🚀 Getting Started
+1. Install Squid Framework: `npm install squid-framework`
+2. Create a new project: `squid create my-app`
+3. Navigate to your project: `cd my-app`
+4. Start the development server: `npm start`
 
-## ✨ Features
+## 📖 Documentation
+Comprehensive documentation is available at [https://squidframework.com/docs](https://squidframework.com/docs)
 
-- **Tool Integration**: Squid can access GitHub, Slack, and countless other APIs
-- **Real-time Chat**: Streaming responses with tool execution
-- **Smart Reasoning**: Brief explanations of Squid's approach and tool selection
-- **Next.js Powered**: Fast, modern web app with TypeScript
+## 💬 Contributing
+We welcome contributions! See our [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-## 🛠 Tech Stack
+## 📁 License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
-- [Next.js](https://nextjs.org) - React framework
-- [Composio](https://composio.dev) - Tool integration platform
-- [Vercel AI SDK](https://vercel.com/docs/ai) - AI streaming
-- [Tailwind CSS](https://tailwindcss.com) - Styling
-
----
-
-*Built with ❤️ for seamless AI-tool interactions*
+## 📧 Contact
+For support, reach out to the team at [contact@squidframework.com](mailto:contact@squidframework.com) or join our [Slack community](https://squidframework.com/slack).
