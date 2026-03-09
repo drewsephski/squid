@@ -4,10 +4,12 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { MessageCircle, Plug, ArrowRight } from "lucide-react";
+import { useAuth, UserButton, SignUpButton } from '@clerk/nextjs';
 
 export default function Navbar() {
   const pathname = usePathname();
   const isActive = (path: string) => pathname === path;
+  const { userId } = useAuth();
 
   return (
     <>
@@ -297,10 +299,16 @@ export default function Navbar() {
               <div className="squid-status-dot" />
               All systems operational
             </div>
-            <Link href="/connections" className="squid-nav-cta">
-              Get started
-              <ArrowRight />
-            </Link>
+            {userId ? (
+              <UserButton />
+            ) : (
+              <SignUpButton mode="modal">
+                <Link href="/connections" className="squid-nav-cta">
+                  Get started
+                  <ArrowRight />
+                </Link>
+              </SignUpButton>
+            )}
           </div>
         </div>
 
