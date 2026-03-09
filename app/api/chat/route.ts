@@ -10,7 +10,7 @@ import {
 } from "ai";
 import { auth } from "@clerk/nextjs/server";
 import { prisma } from "@/lib/prisma";
-import { Prisma } from "@prisma/client";
+import type { Message } from "@prisma/client";
 
 const composio = new Composio({ provider: new VercelProvider() });
 
@@ -66,7 +66,7 @@ export async function GET(req: Request) {
   }
 
   // Convert DB messages to UIMessage format
-  const messages: UIMessage[] = chat.messages.map((msg: Prisma.Message) => {
+  const messages: UIMessage[] = chat.messages.map((msg: Message) => {
     let parts;
     try {
       // Try to parse as JSON parts array
