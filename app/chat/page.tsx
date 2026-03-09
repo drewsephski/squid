@@ -10,6 +10,7 @@ import remarkGfm from "remark-gfm";
 import rehypeHighlight from "rehype-highlight";
 import rehypeRaw from "rehype-raw";
 import { Show, RedirectToSignIn } from "@clerk/nextjs";
+import type { UIMessage } from "ai";
 
 interface Chat {
   id: string;
@@ -21,14 +22,14 @@ interface Chat {
 
 interface ChatContentProps {
   currentChatId: string | null;
-  initialMessages: any[];
+  initialMessages: UIMessage[];
   loadingHistory: boolean;
   input: string;
   setInput: (input: string) => void;
   activeTab: 'chat' | 'history';
   setActiveTab: (tab: 'chat' | 'history') => void;
-  bottomRef: React.RefObject<HTMLDivElement>;
-  inputRef: React.RefObject<HTMLTextAreaElement>;
+  bottomRef: React.RefObject<HTMLDivElement | null>;
+  inputRef: React.RefObject<HTMLTextAreaElement | null>;
 }
 
 const ChatContent: React.FC<ChatContentProps> = ({
